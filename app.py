@@ -7,7 +7,7 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 import uvicorn
 from llama_index.llms.openai import OpenAI
-from llama_index.experimental.query_engine.pandas import PandasInstructionParser
+from llama_index.experimental.query_engine import PandasInstructionParser
 from llama_index.core import PromptTemplate
 from llama_index.core.llms import ChatMessage
 from llama_index.core.memory import ChatMemoryBuffer
