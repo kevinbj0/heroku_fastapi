@@ -3,6 +3,6 @@ uvicorn
 gunicorn
 pandas
 openai
-llama-index
+llama-index==0.11.16
 llama_index.core
 llama_index.experimental
