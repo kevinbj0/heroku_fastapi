@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import pandas as pd
 
 # 상대 경로로 CSV 파일 읽기
-df = pd.read_csv('data/your_data.csv')
+df = pd.read_csv('data/모니카데이터_전자제품.csv')
 print(df.head())
 
 app = FastAPI()
