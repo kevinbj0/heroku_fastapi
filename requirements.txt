@@ -3,5 +3,4 @@ uvicorn
 gunicorn
 pandas
 openai
-langdetect
 llama-index
