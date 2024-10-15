@@ -1,4 +1,9 @@
 from fastapi import FastAPI
+import pandas as pd
+
+# 상대 경로로 CSV 파일 읽기
+df = pd.read_csv('data/your_data.csv')
+print(df.head())
 
 app = FastAPI()
 
