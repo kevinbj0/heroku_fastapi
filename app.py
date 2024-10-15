@@ -6,7 +6,6 @@ import json
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 import uvicorn
-from deep_translator import GoogleTranslator
 from langdetect import detect
 from llama_index.llms.openai import OpenAI
 from llama_index.experimental.query_engine.pandas import PandasInstructionParser
