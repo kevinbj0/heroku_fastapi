@@ -4,6 +4,3 @@ gunicorn
 pandas
 openai
 llama-index
-llama-index-llms-openai
-llama-index-experimental
-
