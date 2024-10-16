@@ -3,4 +3,4 @@ uvicorn
 gunicorn
 pandas
 openai
-llama-index
+llama-index == 0.11.16
